@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Museum List View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MuseumListViewController" customModule="Pocket_Museum" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="museum-day2" translatesAutoresizingMaskIntoConstraints="NO" id="nmX-El-o75" userLabel="ImageViewBg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="316"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookmark2" translatesAutoresizingMaskIntoConstraints="NO" id="haJ-PI-UXm">
+                                <rect key="frame" x="166" y="0.0" width="82" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="HzV-tb-xBV"/>
+                                    <constraint firstAttribute="height" constant="120" id="aOO-Sp-lO0"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5hl-Qx-7ax" userLabel="MyTableView">
+                                <rect key="frame" x="0.0" y="316" width="414" height="420"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="museumCell" editingAccessoryType="disclosureIndicator" rowHeight="50" id="1cI-ys-Wnz" customClass="MuseumCell" customModule="Pocket_Museum" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1cI-ys-Wnz" id="eY9-a6-RpC">
+                                            <rect key="frame" x="0.0" y="0.0" width="381" height="49.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLV-0d-Q7U" userLabel="musuemNameLabel">
+                                                    <rect key="frame" x="24" y="0.0" width="278" height="41"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                    <color key="textColor" red="0.15985881979695427" green="0.15985881979695427" blue="0.15985881979695427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="museumNameLabel" destination="bLV-0d-Q7U" id="GrQ-Dq-3fK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="nmX-El-o75" secondAttribute="trailing" id="3eM-7g-TCs"/>
+                            <constraint firstItem="haJ-PI-UXm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="ELa-Mf-Ee3"/>
+                            <constraint firstItem="5hl-Qx-7ax" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FEI-V6-cZb"/>
+                            <constraint firstItem="5hl-Qx-7ax" firstAttribute="top" secondItem="nmX-El-o75" secondAttribute="bottom" id="GWi-Zw-BSZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nmX-El-o75" secondAttribute="bottom" constant="420" id="PrE-km-zn8">
+                                <variation key="heightClass=compact" constant="245"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="5hl-Qx-7ax" secondAttribute="trailing" id="Xa8-8T-RVD"/>
+                            <constraint firstItem="haJ-PI-UXm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XbQ-2c-YJH"/>
+                            <constraint firstItem="nmX-El-o75" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Xj3-7T-TIT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5hl-Qx-7ax" secondAttribute="bottom" id="e3v-X3-M2t"/>
+                            <constraint firstItem="nmX-El-o75" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gLB-d9-cHg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myTableView" destination="5hl-Qx-7ax" id="CD0-35-Ulr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bookmark2" width="336" height="512"/>
+        <image name="museum-day2" width="2000" height="1334"/>
+    </resources>
+</document>

@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3281827A1E5ED2710070892D /* MuseumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328182791E5ED2710070892D /* MuseumCell.swift */; };
+		3281827C1E5ED3A50070892D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3281827B1E5ED3A50070892D /* Model.swift */; };
+		3281827E1E5ED9F70070892D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3281827D1E5ED9F70070892D /* Utilities.swift */; };
+		328182801E5EDBFF0070892D /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3281827F1E5EDBFF0070892D /* Parameters.swift */; };
+		32A5F5B21E5DD95200976F7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5F5B11E5DD95200976F7D /* AppDelegate.swift */; };
+		32A5F5B41E5DD95200976F7D /* MuseumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5F5B31E5DD95200976F7D /* MuseumListViewController.swift */; };
+		32A5F5B71E5DD95200976F7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A5F5B51E5DD95200976F7D /* Main.storyboard */; };
+		32A5F5B91E5DD95200976F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A5F5B81E5DD95200976F7D /* Assets.xcassets */; };
+		32A5F5BC1E5DD95200976F7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A5F5BA1E5DD95200976F7D /* LaunchScreen.storyboard */; };
+		F803AB6ABC5374BE0EA03938 /* Pods_Pocket_Museum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4383F28A8501E8EDD12368 /* Pods_Pocket_Museum.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D4383F28A8501E8EDD12368 /* Pods_Pocket_Museum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pocket_Museum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		328182791E5ED2710070892D /* MuseumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumCell.swift; sourceTree = "<group>"; };
+		3281827B1E5ED3A50070892D /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3281827D1E5ED9F70070892D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3281827F1E5EDBFF0070892D /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		32A5F5AE1E5DD95200976F7D /* Pocket_Museum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pocket_Museum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A5F5B11E5DD95200976F7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32A5F5B31E5DD95200976F7D /* MuseumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumListViewController.swift; sourceTree = "<group>"; };
+		32A5F5B61E5DD95200976F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32A5F5B81E5DD95200976F7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32A5F5BB1E5DD95200976F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32A5F5BD1E5DD95200976F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D54A67012287176EFDA819 /* Pods-Pocket_Museum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket_Museum.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pocket_Museum/Pods-Pocket_Museum.release.xcconfig"; sourceTree = "<group>"; };
+		B9E12E54D644845CDDBB34D4 /* Pods-Pocket_Museum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket_Museum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pocket_Museum/Pods-Pocket_Museum.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32A5F5AB1E5DD95200976F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F803AB6ABC5374BE0EA03938 /* Pods_Pocket_Museum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A5F5A51E5DD95200976F7D = {
+			isa = PBXGroup;
+			children = (
+				32A5F5B01E5DD95200976F7D /* Pocket_Museum */,
+				32A5F5AF1E5DD95200976F7D /* Products */,
+				D32C65C57ECAF4EF1E11A86F /* Pods */,
+				F8E200EE95C8C459D9ACDDCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32A5F5AF1E5DD95200976F7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A5F5AE1E5DD95200976F7D /* Pocket_Museum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32A5F5B01E5DD95200976F7D /* Pocket_Museum */ = {
+			isa = PBXGroup;
+			children = (
+				3281827D1E5ED9F70070892D /* Utilities.swift */,
+				3281827F1E5EDBFF0070892D /* Parameters.swift */,
+				32A5F5B11E5DD95200976F7D /* AppDelegate.swift */,
+				32A5F5B31E5DD95200976F7D /* MuseumListViewController.swift */,
+				32A5F5B51E5DD95200976F7D /* Main.storyboard */,
+				32A5F5B81E5DD95200976F7D /* Assets.xcassets */,
+				32A5F5BA1E5DD95200976F7D /* LaunchScreen.storyboard */,
+				32A5F5BD1E5DD95200976F7D /* Info.plist */,
+				328182791E5ED2710070892D /* MuseumCell.swift */,
+				3281827B1E5ED3A50070892D /* Model.swift */,
+			);
+			path = Pocket_Museum;
+			sourceTree = "<group>";
+		};
+		D32C65C57ECAF4EF1E11A86F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9E12E54D644845CDDBB34D4 /* Pods-Pocket_Museum.debug.xcconfig */,
+				60D54A67012287176EFDA819 /* Pods-Pocket_Museum.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8E200EE95C8C459D9ACDDCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D4383F28A8501E8EDD12368 /* Pods_Pocket_Museum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32A5F5AD1E5DD95200976F7D /* Pocket_Museum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A5F5C01E5DD95200976F7D /* Build configuration list for PBXNativeTarget "Pocket_Museum" */;
+			buildPhases = (
+				B4971B3A46E43A48A9D2C66F /* [CP] Check Pods Manifest.lock */,
+				32A5F5AA1E5DD95200976F7D /* Sources */,
+				32A5F5AB1E5DD95200976F7D /* Frameworks */,
+				32A5F5AC1E5DD95200976F7D /* Resources */,
+				4612739F8EE3333EA185A80E /* [CP] Embed Pods Frameworks */,
+				0893368679BAD776DA8017C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pocket_Museum;
+			productName = Pocket_Museum;
+			productReference = 32A5F5AE1E5DD95200976F7D /* Pocket_Museum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32A5F5A61E5DD95200976F7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Emmanuel Desprez";
+				TargetAttributes = {
+					32A5F5AD1E5DD95200976F7D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J33DB953S3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 32A5F5A91E5DD95200976F7D /* Build configuration list for PBXProject "Pocket_Museum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32A5F5A51E5DD95200976F7D;
+			productRefGroup = 32A5F5AF1E5DD95200976F7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32A5F5AD1E5DD95200976F7D /* Pocket_Museum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A5F5AC1E5DD95200976F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A5F5BC1E5DD95200976F7D /* LaunchScreen.storyboard in Resources */,
+				32A5F5B91E5DD95200976F7D /* Assets.xcassets in Resources */,
+				32A5F5B71E5DD95200976F7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0893368679BAD776DA8017C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pocket_Museum/Pods-Pocket_Museum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4612739F8EE3333EA185A80E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pocket_Museum/Pods-Pocket_Museum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4971B3A46E43A48A9D2C66F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A5F5AA1E5DD95200976F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3281827A1E5ED2710070892D /* MuseumCell.swift in Sources */,
+				32A5F5B41E5DD95200976F7D /* MuseumListViewController.swift in Sources */,
+				3281827E1E5ED9F70070892D /* Utilities.swift in Sources */,
+				32A5F5B21E5DD95200976F7D /* AppDelegate.swift in Sources */,
+				3281827C1E5ED3A50070892D /* Model.swift in Sources */,
+				328182801E5EDBFF0070892D /* Parameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32A5F5B51E5DD95200976F7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A5F5B61E5DD95200976F7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32A5F5BA1E5DD95200976F7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A5F5BB1E5DD95200976F7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32A5F5BE1E5DD95200976F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32A5F5BF1E5DD95200976F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32A5F5C11E5DD95200976F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E12E54D644845CDDBB34D4 /* Pods-Pocket_Museum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J33DB953S3;
+				INFOPLIST_FILE = Pocket_Museum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J33DB953S3.Pocket-Museum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		32A5F5C21E5DD95200976F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D54A67012287176EFDA819 /* Pods-Pocket_Museum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J33DB953S3;
+				INFOPLIST_FILE = Pocket_Museum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J33DB953S3.Pocket-Museum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32A5F5A91E5DD95200976F7D /* Build configuration list for PBXProject "Pocket_Museum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A5F5BE1E5DD95200976F7D /* Debug */,
+				32A5F5BF1E5DD95200976F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A5F5C01E5DD95200976F7D /* Build configuration list for PBXNativeTarget "Pocket_Museum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A5F5C11E5DD95200976F7D /* Debug */,
+				32A5F5C21E5DD95200976F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32A5F5A61E5DD95200976F7D /* Project object */;
+}
